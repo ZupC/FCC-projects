@@ -1,1 +1,67 @@
+<!DOCTYPE html>
+<!- this is a initial test to start coding, I will turn it onto a webpage.-!>
+<html lang="en">
+<head>
+    <head>
+        <H1 class="title">Tribute page for</H1> 
+    </head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
 
+</head>
+<body>
+    <p class="paragraph">
+    a random test about anything
+    </p>
+    <ol>
+        <li>one</li>
+        <li>two</li>
+    </ol>
+   <a href="#"><img src="https://images-na.ssl-images-amazon.com/images/I/41g6jROgo0L.png" class="a-peepo" alt="a google random photo"></a>
+   <a href="#"><img src="https://noticias.maisesports.com.br/wp-content/uploads/2016/08/Rework-do-Yorick.jpg" class="random" alt="a yorick shovel"></a>
+</body>
+</html>
+
+<style>
+    body {
+        background-color: silver;
+    }
+    .paragraph {
+        font-family: 'Josefin Sans', monospace;
+        color:saddlebrown;
+        font-size: 20px;
+    }
+    .title {
+        font-family:'Quattrocento', monospace;
+        font-style: oblique;
+        color: #660bf8;
+        justify-self: center;
+        text-shadow: #660bf8;
+    }
+    .img-div {
+      
+    }
+    .border {
+        width: 100px;
+        border: green;
+        border-width: 5%;
+        border-radius: 50%;
+    }
+    .a-peepo {
+        width: 100px;
+        height: auto;
+    }
+    .random {
+        width: 200px;
+        height: auto;
+    }
+    
+  
+</style>
+<link href="https://fonts.googleapis.com/css?family=Josefin Sans" rel="stylesheet" type="text/css">
+<link href='https://fonts.googleapis.com/css?family=Cedarville Cursive' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Angkor' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Quattrocento' rel='stylesheet'>
+<!- fonts from google font API if not able it will show monospace.-!>
