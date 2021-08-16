@@ -67,6 +67,7 @@
         position: absolute;
         margin: 0;
         display: block;
+        float: none;
     }
     #img-div {
         padding: 10px;
