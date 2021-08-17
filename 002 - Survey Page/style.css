@@ -1,0 +1,153 @@
+body {
+    content: '';
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    z-index: -1;
+    background-image: url(https://images.pexels.com/photos/355887/pexels-photo-355887.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+}
+
+main {
+    line-height: 1.5;
+    color: white;
+    font-size: 1.5rem;
+    font-family: 'Hahmlet', monospace;
+}
+
+.form-group {
+    margin-top: 0.8rem;
+    margin-bottom: 0.8rem;
+    font-size: 1.5rem;
+}
+
+.paragraph {
+    color: white;
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+}
+
+#survey-form {
+    padding: 0.2rem;
+    width: 100%;
+    display: inline;
+    align-items: center;
+}
+
+.textarea {
+    width: 100%;
+    min-height: 120px;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    padding: 0.7;
+    font-size: 1.5rem;
+    color: white;
+}
+
+#center {
+    margin: 0 auto;
+    width: 50%;
+    border: 3px solid rgba(0, 0, 0, 0.95);
+    padding: 75px;
+    background-color: rgba(0, 0, 0, 0.75);
+    border-radius: 5%;
+}
+
+.form-group {
+    margin-top: 0.5fr;
+    font-size: 1.5rem;
+    margin-bottom: 0.75fr;
+    display: block;
+    margin-left: auto;
+}
+
+label {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+#check-group {
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: white;
+}
+
+.checkbox {
+    margin-right: 0.625rem;
+    min-height: 1.25rem;
+    min-width: 1.25rem;
+    cursor: pointer;
+}
+
+.input-radio {
+    padding: 10px;
+    display: inline;
+    align-items: center;
+    cursor: pointer;
+    min-height: 1.5rem;
+    min-width: 1.5rem;
+    margin-right: 1rem;
+}
+
+#name-label, #number-label, #age-label {
+    align-self: left;
+}
+
+#name, #number, #email {
+    width: 100%;
+    padding: 0.7rem;
+    font-size: inherit;
+    font-style: inherit;
+}
+
+#description {
+    text-align: center;
+    margin-bottom: 3rem;
+    margin-top: 0;
+    display: flexbox;
+    font-size: 1.9rem;
+    color: white;
+    font-style: 'Hahmlet', monospace;
+}
+
+ #title {
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 1.5rem;
+    font-size: 2.8rem;
+    color: white;
+    font-style: 'Hahmlet', monospace;
+}
+
+#comments {
+    color: black;
+}
+
+#submit {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: block;
+    background: #2559b9;
+    color: inherit;
+    font-size: inherit;
+    width: 100%;
+    padding: 0.7rem;
+    font-family: inherit;
+    cursor: pointer;
+    border-radius: 10px;
+    border-color: #2559b9;;
+}
+
+#dropdown {
+    width: 100%;
+    padding: 0.7rem;
+    font-size: inherit;
+    font-family: inherit;
+    cursor: pointer;
+}
