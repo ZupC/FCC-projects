@@ -1,3 +1,3 @@
-<strong>#HTML-CSS Projects</strong><br>
+# HTML-CSS Projects<br>
 This is a repository to put the projects from freeCodeCamp with only CSS and HTML.
 
