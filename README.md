@@ -1,2 +1,3 @@
-# FCC-projects
-A repository to insert my projects from  free code camp .
+<strong># HTML-CSS Projects</strong>
+This is a repository to put the projects from freeCodeCamp with only CSS and HTML.
+
